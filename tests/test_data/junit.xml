@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites>
+  <testsuite name="Integration tests" tests="9" failure="2" timestamp="2019-05-28T18:18:07.189Z">
+    <testcase name="Integrations: Sales" classname="tests.integration.store" time="271.2">
+      <failure message="Step Failed: Expected: 'Unit Price                            3.00'. Actual: 5.00'"/>
+    </testcase>
+    <testcase name="Inventory: Stock Count" classname="tests.inventory.stock" time="100.518">
+    </testcase>
+    <testcase name="Inventory: Stock Empty" classname="tests.inventory.stock" time="111.916">
+    </testcase>
+    <testcase name="Inventory: Stock Add" classname="tests.inventory.stock" time="85.441">
+    </testcase>
+    <testcase name="Integrations: Stock Import" classname="tests.integration.store" time="71.609">
+    </testcase>
+    <testcase name="Integration : User Import" classname="tests.integration.user" time="191.394">
+      <failure message="Step Failed: Expected: '12 Users'. Actual: '13 Users'"/>
+    </testcase>
+    <testcase name="Integrations: Create User" classname="tests.integration.user" time="145.177">
+    </testcase>
+    <testcase name="Integrations: Delete User" classname="tests.integration.user" time="58.382">
+    </testcase>
+    <testcase name="Shipping: Process Orders" classname="tests.shipping.orders" time="118.485">
+    </testcase>
+  </testsuite>
+</testsuites>
